@@ -5,9 +5,9 @@ import "./App.css";
 
 function App() {
   return (
-    <Switch>
-      <div className="App">
+    <div className="App">
         <header className="App-header">
+        <Switch>
           <Route exact path="/">
             <h1>Hello World!</h1>
           </Route>
@@ -17,10 +17,10 @@ function App() {
           <Route path="/hei">
             <h1>Hei Maailma!</h1>
           </Route>
+    </Switch>
           <Navigation />
         </header>
       </div>
-    </Switch>
   );
 }
 

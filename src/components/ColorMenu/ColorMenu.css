@@ -1,0 +1,27 @@
+.color-menu{
+    list-style:none;
+    padding: 0;
+}
+
+.color-item{
+    min-width: 2rem;
+    min-height: 2rem;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.color-item:hover{
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color: #cad659;
+}
+
+.green{
+    background-color: #4aad57;
+}
